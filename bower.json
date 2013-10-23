@@ -1,6 +1,6 @@
 {
     "name": "profile",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./profile.js",
     "ignore": [
         "**/.*",
@@ -11,7 +11,7 @@
         "angular": "*",
         "angular-ui-utils": "*",
         "angular-ui-bootstrap": "*",
-        "10digit/utils": "~0.0.0",
-        "10digit/validation": "~0.0.0"
+        "10digit-utils": "*",
+        "10digit-validation": "*"
     }
 }
