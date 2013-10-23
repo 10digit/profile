@@ -1,4 +1,4 @@
-angular.module('10digit.profile', ['ui.mask', '10digit.utils', 'ui.validate', 'ui.bootstrap.tooltip', 'app.config'])
+angular.module('10digit.profile', ['ui.mask', '10digit.utils', 'ui.validate', 'ui.bootstrap.tooltip'])
 
 .factory('ProfileConfig', function(){
     var config = {
