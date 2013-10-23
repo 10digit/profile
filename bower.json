@@ -1,0 +1,17 @@
+{
+    "name": "profile",
+    "version": "0.0.0",
+    "main": "./profile.js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "angular": "*",
+        "angular-ui-utils": "*",
+        "angular-ui-bootstrap": "*",
+        "10digit/utils": "~0.0.0",
+        "10digit/validation": "~0.0.0"
+    }
+}
