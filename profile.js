@@ -9,7 +9,7 @@ angular.module('10digit.profile', ['ui.mask', '10digit.utils', 'ui.validate', 'u
                 email: 'calvin@numbergarage.com',
                 password: 'Tester1234',
                 confirm_password: 'Tester1234',
-                phone: '8084461375'
+                phone: {phone: '8084461375'}
             }
         }
     };
