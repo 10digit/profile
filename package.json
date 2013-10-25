@@ -1,0 +1,16 @@
+{
+  "name": "10digit.profile",
+  "version": "0.0.4",
+  "description": "Profile module",
+  "repository": { "type":"git" },
+  "author": "Calvin Froedge",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt":"0.4.1",
+    "grunt-contrib-jasmine":"~0.4.0",
+    "grunt-contrib-jade":"0.8.0",
+    "grunt-contrib-concat":"*",
+    "grunt-bower-task":"~0.3.2",
+    "grunt-contrib-jshint":"~0.2.0"
+  }
+}

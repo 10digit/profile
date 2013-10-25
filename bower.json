@@ -1,6 +1,6 @@
 {
     "name": "profile",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "./profile.js",
     "ignore": [
         "**/.*",
@@ -13,5 +13,8 @@
         "angular-ui-bootstrap": "*",
         "10digit-utils": "*",
         "10digit-validation": "*"
+    },
+    "devDependencies": {
+        "angular-mocks": "*"
     }
 }
