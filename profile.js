@@ -46,13 +46,14 @@ angular.module('10digit.profile', ['ui.mask', '10digit.utils', 'ui.validate', 'u
 }])
 
 .controller('ProfileCtrl', ['$scope', 'Profile', 'ProfileConfig', function($scope, Profile, Config){
+    $scope.profile = Profile.profile;
+
     if($scope.signup && Config.testMode){
         $scope.profile = Config.initialValues.profile;
     }
 
     if(!$scope.signup){
         Profile.load();
-        $scope.profile = Profile.profile;
     }
 
     $scope.update = function(){
