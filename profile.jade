@@ -17,15 +17,15 @@ div(ng-controller="ProfileCtrl", ng-form="profileForm")
     .row-fluid
         .span4
             label Your Name
-            input(name="name", type="text", placeholder="Your Name Here...", ng-model="profile.name", required, ngp-valid-name-pair, tooltip="Include your first and last name.", tooltip-trigger="focus", tooltip-placement="right", ng-init="profile.name")
+            input.input-block-level(name="name", type="text", placeholder="Your Name Here...", ng-model="profile.name", required, ngp-valid-name-pair, tooltip="Include your first and last name.", tooltip-trigger="focus", tooltip-placement="right", ng-init="profile.name")
             label Email Address
-            input(name="email", type="email", placeholder="you@foo.com", ng-model="profile.email", required, ngp-valid-email, tooltip="Must be an email unique to our system.", tooltip-trigger="focus", tooltip-placement="right")
+            input.input-block-level(name="email", type="email", placeholder="you@foo.com", ng-model="profile.email", required, ngp-valid-email, tooltip="Must be an email unique to our system.", tooltip-trigger="focus", tooltip-placement="right")
         .span4
             label Password
-            input(name="password", type="password", placeholder="", ng-model="profile.password", ui-validate=" '$value.length > 8' ", tooltip="Must be longer than eight characters.", tooltip-trigger="focus", tooltip-placement="right", ng-required="signup")
+            input.input-block-level(name="password", type="password", placeholder="", ng-model="profile.password", ui-validate=" '$value.length > 8' ", tooltip="Must be longer than eight characters.", tooltip-trigger="focus", tooltip-placement="right", ng-required="signup")
             label Confirm Password
-            input(name="confirm_password", type="password", placeholder="", ng-model="profile.confirm_password", ui-validate=" '$value == profile.password' ", ng-required="signup", tooltip="Must match password.", tooltip-trigger="focus", tooltip-placement="right")
+            input.input-block-level(name="confirm_password", type="password", placeholder="", ng-model="profile.confirm_password", ui-validate=" '$value == profile.password' ", ng-required="signup", tooltip="Must match password.", tooltip-trigger="focus", tooltip-placement="right")
         .span4
             label Contact Phone
-            input(name="phone", ui-mask="(999) 999-9999", ng-model="profile.phone.phone", type="text", required)
+            input.input-block-level(name="phone", ui-mask="(999) 999-9999", ng-model="profile.phone.phone", type="text", required)
     .btn.btn-primary(ng-show="!signup", ng-click="update()") Update
